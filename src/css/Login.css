@@ -1,0 +1,104 @@
+/* body {
+  background: url("../assets/SEGi_Background.png") no-repeat;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("./Components/images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.labelInput {
+  width: 60%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background-color: #eee;
+}
+.labelInput:focus {
+  border-color: #000;
+}
+
+.loginBtn {
+  width: 20%;
+  padding: 10px;
+  background-color: rgba(0, 106, 140, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.loginBtn:hover {
+  background-color: #0056b3;
+}
+
+.bottom-text {
+  margin-top: 10px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group .labelInput {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  color: #000;
+  padding: 0px 47px 0px 17px;
+  background: transparent;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  font-size: 16px;
+  transform: translateY(-95%);
+  color: #b3b2b2;
+  padding: 0px 5px;
+  pointer-events: none;
+  transition: 0.4%;
+}
+
+.input-group span {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-95%);
+  cursor: pointer;
+}
+
+.input-group span i {
+  font-size: 16px;
+  color: #b3b2b2;
+}
+
+.input-group .labelInput:focus ~ span i,
+.input-group .labelInput:valid ~ span i {
+  color: rgba(126, 205, 241, 255);
+}
+
+.input-group .labelInput:focus ~ label,
+.input-group .labelInput:valid ~ label {
+  top: 5px;
+  font-size: 12px;
+  background: #fff;
+  color: rgba(126, 205, 241, 255);
+}
+
+.input-group .labelInput:focus,
+.input-group .labelInput:valid {
+  border: 2px solid rgba(126, 205, 241, 255);
+}

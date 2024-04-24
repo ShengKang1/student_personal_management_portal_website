@@ -1,0 +1,66 @@
+#approveCourseDataTable {
+  width: 100% !important;
+}
+
+#approveCourseDataTable th,
+#approveCourseDataTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#approveCourseDataTable th {
+  font-size: 16px;
+}
+
+#approveCourseDataTable td {
+  font-size: 14px;
+}
+
+.approveSelectedbtn {
+  border: 0;
+  border-radius: 0.25em;
+  background-color: #7066e0;
+  color: #fff;
+  cursor: pointer;
+  /* padding: 3px;
+    margin: 2px; */
+  padding: 10px;
+  /* margin: 10px; */
+  /* font-size: 0.8em; */
+}
+
+.rejectSelectedbtn {
+  border: 0;
+  border-radius: 0.25em;
+  background-color: #dc3741;
+  color: #fff;
+  cursor: pointer;
+  /* padding: 3px;
+    margin: 2px; */
+  padding: 10px;
+  margin: 5px;
+}
+
+#approveCourseDataTable .btn {
+  font-size: 12px;
+  padding: 4px 8px;
+  /* Add any other styling as needed */
+}
+
+a {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rowCheckbox,
+.selectAllCheckBox {
+  display: block;
+  margin: 0 auto;
+  /* width: 10px;
+    height: 10px; */
+}
+
+input[type="checkbox"] {
+  display: inline-block; /* or block, depending on your layout */
+}

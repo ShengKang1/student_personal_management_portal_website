@@ -1,0 +1,57 @@
+#courseDataTable {
+  width: 100% !important;
+}
+
+#courseDataTable th,
+#courseDataTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#courseDataTable th {
+  font-size: 15px;
+}
+
+#courseDataTable td {
+  font-size: 12px;
+}
+
+.manangecourseModal {
+  /* box-sizing: border-box; */
+  /* height: 100%;
+    padding: 0.625em;
+    overflow-x: hidden; */
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+#managecourseModal .modalContent {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #fefefe;
+  color: #545454;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#managecourseModal .managecoursebtn {
+  width: max-content;
+  height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 106, 140, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0 15px;
+}

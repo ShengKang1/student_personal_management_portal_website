@@ -1,0 +1,39 @@
+.label-input {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid black;
+  background: none;
+  padding: unset;
+  height: 45px;
+  outline: none;
+  width: 100%;
+}
+
+.clabel-input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.registerBtn {
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 106, 140, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.clabel-input {
+  position: relative;
+}
+
+.clabel-input span {
+  position: absolute;
+  top: 60%;
+  left: 270px;
+  transform: translateY(-95%);
+  cursor: pointer;
+}

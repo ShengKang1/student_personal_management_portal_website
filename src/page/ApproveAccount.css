@@ -1,0 +1,40 @@
+#studentTable {
+  width: 100% !important;
+}
+
+#studentTable th,
+#studentTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#studentTable th {
+  font-size: 16px;
+}
+
+#studentTable td {
+  font-size: 14px;
+}
+
+/* a {
+  padding: 10px;
+  cursor: pointer;
+} */
+
+.rowCheckbox,
+.selectAllCheckBox {
+  display: block;
+  margin: 0 auto;
+  /* width: 10px;
+  height: 10px; */
+}
+
+#account_pending_show_modal div {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: max-content;
+  font-size: 16px;
+}

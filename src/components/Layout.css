@@ -1,0 +1,63 @@
+/* Layout.css */
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  width: 18vh;
+  height: 100vh;
+  /* height: 100%; */
+  background-color: #333;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  /* display: block; */
+  margin-bottom: 10px;
+  font-size: smaller;
+  text-align: center;
+}
+
+.sidebar a:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.sidebar .logout {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  /* display: block; */
+  margin-bottom: 10px;
+  font-size: smaller;
+}
+
+.sidebar .logout:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.logout {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  /* background-color: rgba(113, 185, 228, 255); */
+  background-color: rgba(248, 248, 248, 255);
+  /* background-color: yellow; */
+  /* padding: 20px; */
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100vh;
+}

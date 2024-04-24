@@ -1,0 +1,93 @@
+[debug] [2024-04-04T11:57:01.987Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T11:57:01.989Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2024-04-04T11:57:01.990Z] CLI Version:   13.6.1
+[debug] [2024-04-04T11:57:01.990Z] Platform:      win32
+[debug] [2024-04-04T11:57:01.990Z] Node Version:  v20.11.0
+[debug] [2024-04-04T11:57:01.990Z] Time:          Thu Apr 04 2024 19:57:01 GMT+0800 (Malaysia Time)
+[debug] [2024-04-04T11:57:01.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T11:57:01.993Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-04-04T11:57:02.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T11:57:02.042Z] > authorizing via signed-in user (limshengkang01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Final Year Project\Admin (Website)\admin-reactjs
+
+[debug] [2024-04-04T11:57:07.684Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-04-04T11:57:07.684Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-04T11:57:56.670Z] > refreshing access token with scopes: []
+[debug] [2024-04-04T11:57:56.674Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-04T11:57:56.674Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-04T11:57:58.256Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-04T11:57:58.257Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-04T11:57:58.287Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-04T11:57:59.150Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-04T11:57:59.150Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project student-portal-2d8f1 (student portal) 
+[info] 
+=== Functions Setup
+[debug] [2024-04-04T11:58:04.064Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T11:58:04.065Z] > authorizing via signed-in user (limshengkang01@gmail.com)
+[debug] [2024-04-04T11:58:04.065Z] [iam] checking project student-portal-2d8f1 for permissions ["firebase.projects.get"]
+[debug] [2024-04-04T11:58:04.067Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-portal-2d8f1:testIamPermissions [none]
+[debug] [2024-04-04T11:58:04.067Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-portal-2d8f1:testIamPermissions x-goog-quota-user=projects/student-portal-2d8f1
+[debug] [2024-04-04T11:58:04.067Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-portal-2d8f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-04T11:58:09.344Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-portal-2d8f1:testIamPermissions 200
+[debug] [2024-04-04T11:58:09.345Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-portal-2d8f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-04T11:58:09.346Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-04-04T11:58:09.347Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/student-portal-2d8f1
+[debug] [2024-04-04T11:58:09.350Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/runtimeconfig.googleapis.com [none]
+[debug] [2024-04-04T11:58:09.351Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/student-portal-2d8f1
+[debug] [2024-04-04T11:58:12.037Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/runtimeconfig.googleapis.com 200
+[debug] [2024-04-04T11:58:12.038Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2024-04-04T11:58:12.070Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com 200
+[debug] [2024-04-04T11:58:12.071Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2024-04-04T11:58:12.072Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2024-04-04T11:58:12.072Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/student-portal-2d8f1
+[debug] [2024-04-04T11:58:12.954Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2024-04-04T11:58:12.954Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/student-portal-2d8f1/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2024-04-04T11:58:28.105Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T11:58:28.109Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2024-04-04T11:58:28.109Z] CLI Version:   13.6.1
+[debug] [2024-04-04T11:58:28.109Z] Platform:      win32
+[debug] [2024-04-04T11:58:28.110Z] Node Version:  v20.11.0
+[debug] [2024-04-04T11:58:28.110Z] Time:          Thu Apr 04 2024 19:58:28 GMT+0800 (Malaysia Time)
+[debug] [2024-04-04T11:58:28.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T11:58:28.120Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T11:58:28.121Z] > authorizing via signed-in user (limshengkang01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Final Year Project\Admin (Website)\admin-reactjs
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-04T11:58:42.085Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-04T11:58:45.324Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-04T11:58:45.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]

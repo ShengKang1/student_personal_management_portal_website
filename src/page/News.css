@@ -1,0 +1,30 @@
+#NewsDataTable {
+  width: 100% !important;
+}
+
+#NewsDataTable th,
+#NewsDataTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#NewsDataTable th {
+  font-size: 15px;
+}
+
+#NewsDataTable td {
+  font-size: 12px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #1475cf;
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+#ThirdPartyDataTable {
+  width: 100% !important;
+}
+
+#ThirdPartyDataTable th,
+#ThirdPartyDataTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#ThirdPartyDataTable th {
+  font-size: 15px;
+}
+
+#ThirdPartyDataTable td {
+  font-size: 12px;
+}
+
+/* .dataTables_wrapper .sorting {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  position: relative;
+  padding-right: 30px;
+  font-weight: bold;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  display: table-cell;
+  vertical-align: inherit;
+  border-spacing: 0;
+} */

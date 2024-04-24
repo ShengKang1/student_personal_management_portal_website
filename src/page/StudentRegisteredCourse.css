@@ -1,0 +1,39 @@
+#StudentRegisteredCourseDataTable {
+  width: 100% !important;
+}
+
+#StudentRegisteredCourseDataTable th,
+#StudentRegisteredCourseDataTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#StudentRegisteredCourseDataTable th {
+  font-size: 15px;
+}
+
+#StudentRegisteredCourseDataTable td {
+  font-size: 12px;
+}
+
+.rowCheckbox,
+.selectAllCheckBox {
+  display: block;
+  margin: 0 auto;
+  /* width: 10px;
+    height: 10px; */
+}
+
+.course-register-table {
+  width: 400px;
+  /* height: 300px; */
+  height: 320px;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 20px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px, rgba(0, 0, 0, 0.3) 0px 4px 8px;
+}

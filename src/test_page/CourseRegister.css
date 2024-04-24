@@ -1,0 +1,26 @@
+#createcourseregisterform {
+  /* background-color: yellow;
+    width: 100%;
+    height: 100%; */
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.createcourseregisterformcontent {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #fefefe;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 4px 8px;
+  color: #545454;
+  font-family: inherit;
+  font-size: 1rem;
+}

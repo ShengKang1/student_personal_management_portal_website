@@ -1,0 +1,67 @@
+#studentaccountTable {
+  width: 100% !important;
+}
+
+#studentaccountTable th,
+#studentaccountTable td {
+  padding: 5px;
+  border: 1px solid black;
+  color: #333; /* Text color */
+}
+
+#studentaccountTable th {
+  font-size: 15px;
+}
+
+#studentaccountTable td {
+  font-size: 12px;
+}
+
+/* .manageAction {
+  border: 0;
+  border-radius: 0.25em;
+  background-color: #7066e0;
+  color: #fff;
+  cursor: pointer;
+  padding: 3px;
+  margin: 2px;
+} */
+
+.manangestudentModal {
+  /* box-sizing: border-box; */
+  /* height: 100%;
+  padding: 0.625em;
+  overflow-x: hidden; */
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.modalContent {
+  position: relative;
+  width: 48em;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fefefe;
+  color: #545454;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.manageaccountbtn {
+  width: max-content;
+  height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 106, 140, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0 15px;
+}

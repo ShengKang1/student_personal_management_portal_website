@@ -1,0 +1,236 @@
+.all_upper_button_style {
+  border: 0;
+  border-radius: 0.25em;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0px 10px 10px;
+  font-size: 1em;
+}
+
+.all_modal_background_design {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(114, 115, 114, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+/* .all_modal_content {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fefefe;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 4px 8px;
+  color: #545454;
+  font-family: inherit;
+  font-size: 1rem;
+} */
+
+.all_modal_content {
+  /* position: fixed; */
+  width: max-content;
+  max-width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fefefe;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 4px 8px;
+  color: #545454;
+  font-family: inherit;
+  font-size: 1rem;
+  margin: 30px;
+}
+
+.all_modal_title {
+  padding: 20px 0px;
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.all_modal_label_input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.all_modal_label {
+  /* display: flex; */
+  font-size: 16px;
+}
+
+.all_modal_input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  /* width: 100%; */
+  min-width: max-content;
+  /* max-width: max-content; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 4px 8px; */
+  font-size: 16px;
+}
+
+.all_modal_input_dropdown_menu {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 320px;
+  /* width: 100%; */
+  min-width: max-content;
+  /* max-width: max-content; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 4px 8px; */
+  font-size: 16px;
+}
+
+.all_modal_button_position {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.all_modal_button_style {
+  border: 0;
+  border-radius: 0.25em;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  margin: 10px;
+  font-size: 1em;
+}
+
+.create_modal_button {
+  background-color: #7066e0;
+}
+
+.update_modal_button {
+  background-color: #7066e0;
+}
+
+.delete_modal_button {
+  background-color: #dc3741;
+}
+
+.close_modal_button {
+  background-color: #6e7881;
+}
+
+.dataTables_wrapper a {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: inherit !important;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    to bottom,
+    rgba(230, 230, 230, 0.05) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
+
+.dataTables_wrapper a:hover {
+  background-color: grey;
+}
+
+.dataTables_filter input {
+  padding: 8px;
+  border-radius: 5px;
+}
+.data_cells {
+  display: flex;
+  align-items: center;
+}
+
+.data_table_icon {
+  width: 20px;
+}
+
+.data_table_icon_background {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.data_cursor_pointer {
+  cursor: pointer;
+}
+
+:root {
+  --dt-row-selected: rgb(187, 198, 200);
+}
+
+/* Use the custom property to style selected rows */
+table.dataTable tr.selected {
+  background-color: var(--dt-row-selected);
+}
+
+.all_modal_content_change {
+  max-height: 570px;
+  /* width: 900px; */
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.all_modal_subcontent_change {
+  display: flex;
+}
+
+.login_content {
+  background-color: #fefefe;
+  padding: 30px;
+  margin: 100px;
+  display: flex;
+  border-radius: 20px;
+  max-height: 70%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 4px 8px;
+}
+
+.login_content_change {
+  display: flex;
+  overflow-y: auto;
+  max-height: 70%;
+}
+
+.login_content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  /* width: 30vw; */
+}
+
+.createaccount_padding {
+  padding: 0 10px;
+}
+
+@media (max-width: 1090px) {
+  .all_modal_subcontent_change {
+    display: grid;
+    /* overflow-y: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    overflow: auto; */
+  }
+
+  .login_content_change {
+    display: grid;
+  }
+}
